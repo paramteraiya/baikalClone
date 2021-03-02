@@ -1,0 +1,882 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-BlackItalic.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-Black.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-Italic.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-BoldItalic.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-ExtraLight.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-ExtraLightItalic.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-LightItalic.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-MediumItalic.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-Light.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assests/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../assests/fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../assests/fonts/PTSerif-Bold.woff2") format("woff2"),
+    url("../assests/fonts/PTSerif-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../assests/fonts/PTSerif-Italic.woff2") format("woff2"),
+    url("../assests/fonts/PTSerif-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../assests/fonts/PTSerif-BoldItalic.woff2") format("woff2"),
+    url("../assests/fonts/PTSerif-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Serif";
+  src: url("../assests/fonts/PTSerif-Regular.woff2") format("woff2"),
+    url("../assests/fonts/PTSerif-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+h1 {
+  font-size: 52px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "PT Serif";
+}
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "PT Serif";
+}
+h4 {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+h5 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "PT Serif";
+}
+h6 {
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background-color: #2e71f2;
+  color: #fff;
+  border: none;
+  border-radius: 23px;
+  font-weight: 700;
+  letter-spacing: 2;
+  font-family: "Montserrat";
+  line-height: 45px;
+  width: 165px;
+  text-transform: uppercase;
+  /* width: 16.83%; */
+  cursor: pointer;
+}
+
+.clearfix {
+  display: block;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  width: 100%;
+  display: table;
+}
+
+/*placeholder*/
+::placeholder {
+  color: #fff;
+}
+
+/*colors*/
+.font-white {
+  color: #fff;
+}
+.font-midGray {
+  color: #656b6f;
+}
+.GrayBG {
+  background-color: #585a5c;
+}
+.font-black {
+  color: #3b3d40;
+}
+.snowBG {
+  color: #f9f9f9;
+}
+.darkGrayBG {
+  background-color: #3b3d40;
+}
+/*colors*/
+
+/*float*/
+.left-float {
+  float: left;
+}
+.right-float {
+  float: right;
+}
+
+/*positions*/
+.relative-position {
+  position: relative;
+}
+.absolute-position {
+  position: absolute;
+}
+
+/*wrapper*/
+.wrapper {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* header section  */
+header.absolute-position {
+  z-index: 1;
+  width: 100%;
+}
+.site-navigation {
+  text-align: center;
+}
+button.navigation-trigger {
+  font-size: 30px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: none;
+}
+header .wrapper .header-strip.clearfix {
+  margin-top: 54px;
+}
+header .wrapper .header-strip.clearfix .left.left-float a span.text.font-white {
+  margin-right: 240px;
+}
+header
+  .wrapper
+  .header-strip.clearfix
+  .center.left-float
+  a
+  span.text.font-white {
+  margin-right: 27px;
+  text-transform: uppercase;
+}
+header .wrapper .header-strip.clearfix .right.right-float {
+  font-size: 16px;
+}
+/* header section  */
+
+/*banner section*/
+.banner-section {
+  background-image: url("../assests/images/banner-image.jpg");
+  background-size: cover;
+}
+.banner-section .wrapper .left-upper img,
+.banner-section .wrapper .right-upper img {
+  font-size: 34px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 316px;
+}
+.banner-section .wrapper .center-upper .top-logo {
+  text-align: center;
+}
+.banner-section .wrapper .center-upper {
+  padding-top: 229px;
+}
+.banner-section .wrapper .center-upper .middle-content {
+  text-align: center;
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+}
+.banner-section .wrapper .bottom-content-text {
+  max-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 48px;
+  padding-bottom: 250px;
+}
+/*banner section*/
+
+/* email section  */
+.email-section .wrapper .content {
+  padding-top: 57px;
+  padding-bottom: 60px;
+}
+.content form input#email {
+  width: 250px;
+  line-height: 45px;
+  padding: 0px 0px 0px 19px;
+  background-color: #585a5c;
+  border: none;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+.content form select#investment {
+  width: 525px;
+  padding: 14px 0px 14px 19px;
+  background-color: #585a5c;
+  border: none;
+  border-radius: 4px;
+  margin-right: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 24px;
+}
+/* email section  */
+
+/* NextMove-section   */
+.NextMove-section .wrapper .logo {
+  text-align: center;
+  margin-top: 110px;
+}
+.NextMove-section .wrapper .content h1.font-black {
+  text-align: center;
+}
+.NextMove-section .wrapper .content h2.font-midGray {
+  max-width: 434px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.NextMove-section .wrapper .blocks .block {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.NextMove-section .wrapper .blocks {
+  margin-top: 75px;
+  margin-bottom: 109px;
+}
+.NextMove-section .wrapper .blocks .block h6.font-black,
+.NextMove-section .wrapper .blocks .block h4.font-midGray {
+  text-align: center;
+}
+/* NextMove-section   */
+
+/*video section*/
+.video-section .wrapper .left,
+.video-section .wrapper .right {
+  width: 50%;
+}
+.video-section .wrapper .left h1.font-black {
+  line-height: 1;
+}
+.video-section .wrapper .left h3.font-midGray {
+  letter-spacing: 0;
+}
+.video-section .wrapper img.absolute-position {
+  top: 73px;
+  right: 144px;
+}
+.video-section .wrapper .left {
+  margin-bottom: 136px;
+}
+/*video section*/
+
+/*JoinTeam-section*/
+.JoinTeam-section .wrapper .left-content,
+.JoinTeam-section .wrapper .right-content {
+  width: 50%;
+}
+.JoinTeam-section .wrapper .left-content {
+  margin-top: 107px;
+}
+.JoinTeam-section .wrapper .right-content {
+  margin-top: 111px;
+}
+.JoinTeam-section .wrapper .right-content button {
+  margin-top: 60px;
+  margin-bottom: 111px;
+}
+/*JoinTeam-section*/
+
+/* donate section  */
+.donate-section .wrapper .right-content,
+.donate-section .wrapper .left-content {
+  width: 50%;
+}
+.donate-section .wrapper .right-content {
+  padding-left: 80px;
+  margin-top: 107px;
+}
+.donate-section .wrapper .left-content {
+  margin-top: 111px;
+}
+.donate-section .wrapper .left-content button {
+  margin-top: 60px;
+  margin-bottom: 111px;
+}
+/* donate section  */
+
+/* ReadMore section  */
+.ReadMore-section .wrapper .content {
+  text-align: center;
+  margin-top: 120px;
+}
+.ReadMore-section .wrapper .content h1.font-black {
+  max-width: 847px;
+  width: 100%;
+  margin: 0 auto;
+}
+.ReadMore-section .wrapper .content h2.font-midGray {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+.ReadMore-section .wrapper .pera.clearfix {
+  margin-top: 78px;
+}
+.ReadMore-section .wrapper .left-pera.left-float,
+.ReadMore-section .wrapper .right-pera.right-float {
+  width: 50%;
+}
+.ReadMore-section .wrapper .left-pera.left-float h4.font-midGray {
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  letter-spacing: 0;
+}
+.ReadMore-section .wrapper .right-pera.right-float h4.font-midGray {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  letter-spacing: 0;
+}
+.ReadMore-section .wrapper .read-button {
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+/* ReadMore section  */
+
+/* joinProgram-section */
+.joinProgram-section {
+  background-image: url("../assests/images/join_program.jpg");
+  background-size: cover;
+}
+.joinProgram-section .wrapper .content {
+  text-align: center;
+  padding-top: 110px;
+}
+.joinProgram-section .wrapper .content h1.font-white {
+  text-transform: uppercase;
+}
+.joinProgram-section .wrapper .content h2.font-white {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  letter-spacing: 0;
+}
+.joinProgram-section .wrapper .input-email {
+  margin-top: 70px;
+  padding-bottom: 107px;
+}
+.joinProgram-section form input#email {
+  width: 400px;
+  line-height: 45px;
+  padding: 0px 0px 0px 19px;
+  background-color: #777975;
+  border: none;
+  border-radius: 4px;
+  margin-right: 15px;
+  opacity: 0.3;
+}
+h5.font-midGray {
+  padding-top: 37px;
+  letter-spacing: 0;
+}
+/* joinProgram-section */
+
+/* footer section  */
+footer .wrapper .blocks .middle h4.font-midGray {
+  max-width: 384px;
+  width: 100%;
+  margin: 0 auto;
+}
+footer .wrapper .blocks .left.left-float,
+footer .wrapper .blocks .right.right-float {
+  width: 25%;
+}
+footer .wrapper .blocks .right.left-float {
+  font-size: 16px;
+  width: 25%;
+}
+footer .wrapper .blocks .middle {
+  width: 50%;
+}
+footer .wrapper h4.h4-2.font-midGray {
+  padding-top: 15px;
+}
+footer .wrapper .blocks {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+/* footer section  */
+
+/*
+1030px > 900px (993)
+992px > 700px (769)
+767px > 100% (480)
+479 > 100% (375)
+*/
+/* media queries  */
+@media (max-width: 1030px) {
+  .wrapper {
+    max-width: 900px;
+  }
+  .content form input#email {
+    margin-left: -15px;
+  }
+  .content form input#email,
+  .content form select#investment {
+    margin-right: 5px;
+  }
+  .video-section .wrapper .left h1.font-black {
+    line-height: 1;
+    max-width: 418px;
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    max-width: 700px;
+  }
+  header
+    .wrapper
+    .header-strip.clearfix
+    .left.left-float
+    a
+    span.text.font-white {
+    margin-right: 125px;
+  }
+  .content form select#investment {
+    width: 325px;
+  }
+  .content form input#email {
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px 0 15px;
+  }
+  header
+    .wrapper
+    .header-strip.clearfix
+    .site-navigation
+    button.navigation-trigger {
+    display: block;
+  }
+  header .wrapper .header-strip.clearfix .site-navigation .center.left-float {
+    display: none;
+  }
+  header
+    .wrapper
+    .header-strip.clearfix
+    .left.left-float
+    a
+    span.text.font-white {
+    margin-right: 57px;
+  }
+  /* header
+  .wrapper
+  .header-strip.clearfix .left.left-float {
+    width: 100%;
+    text-align: center;
+  } */
+  header .wrapper .header-strip.clearfix .right.right-float a {
+    margin-right: 15px;
+  }
+  .site-navigation.left-float.relative-position {
+    top: -7px;
+    left: 45px;
+  }
+  header .wrapper .header-strip.clearfix .left.left-float,
+  header .wrapper .header-strip.clearfix .right.right-float {
+    font-size: 20px;
+  }
+  .banner-section .wrapper .center-upper {
+    padding-top: 170px;
+  }
+  .banner-section .wrapper .center-upper .middle-content h1.font-white {
+    font-size: 35px;
+  }
+  .banner-section .wrapper .center-upper .middle-content {
+    max-width: 350px;
+    padding-top: 10px;
+  }
+  .banner-section .wrapper .left-upper img,
+  .banner-section .wrapper .right-upper img {
+    margin-top: 258px;
+  }
+  .banner-section .wrapper a img {
+    height: 40px;
+  }
+  .banner-section .wrapper .bottom-content-text {
+    padding-bottom: 150px;
+  }
+  .email-section .wrapper .content {
+    padding: 40px 0px 40px 0px;
+  }
+  .input-email.left-float,
+  .investment-input.left-float,
+  .start-button.right-float {
+    float: none;
+    text-align: center;
+  }
+  .content form select#investment,
+  .start-button.right-float {
+    margin-top: 10px;
+  }
+  .content form input#email {
+    margin-left: 0;
+  }
+  .content form input#email {
+    width: 325px;
+  }
+  .video-section .wrapper .left,
+  .video-section .wrapper .right {
+    width: 100%;
+    float: none;
+  }
+  .video-section .wrapper .left {
+    margin-bottom: 70px;
+  }
+  .video-section .wrapper .left h1.font-black {
+    max-width: 500px;
+    font-size: 40px;
+    /* margin: 0 auto; */
+  }
+  .video.right-float.relative-position {
+    float: none;
+    text-align: center;
+  }
+  .video-section .wrapper img.absolute-position {
+    right: 170px;
+  }
+  .JoinTeam-section .wrapper .left-content.left-float,
+  .JoinTeam-section .wrapper .right-content {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .JoinTeam-section .wrapper .right-content {
+    margin-top: 50px;
+  }
+  .JoinTeam-section .wrapper .right-content button {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  .donate-section .wrapper .right-content,
+  .donate-section .wrapper .left-content {
+    float: none;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  .ReadMore-section .wrapper .content {
+    margin-top: 50px;
+  }
+  .ReadMore-section .wrapper .content h1.font-black {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .ReadMore-section .wrapper .pera.clearfix {
+    margin-top: 50px;
+  }
+  .ReadMore-section .wrapper .left-pera.left-float,
+  .ReadMore-section .wrapper .right-pera.right-float {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .ReadMore-section .wrapper .right-pera.right-float h4.font-midGray {
+    max-width: 420px;
+    padding-top: 15px;
+  }
+  .ReadMore-section .wrapper .read-button {
+    padding-bottom: 70px;
+  }
+  .joinProgram-section .wrapper .content {
+    padding-top: 70px;
+  }
+  .joinProgram-section .wrapper .form .input-email .email button {
+    margin-top: 10px;
+  }
+  footer .wrapper .blocks {
+    padding: 45px 0px 40px 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 0px 15px 0px 15px;
+  }
+  h1.font-black,
+  h1.font-midGray,
+  h1.font-white {
+    font-size: 35px;
+  }
+  .site-navigation.left-float.relative-position {
+    top: -16px;
+    left: 4px;
+  }
+  .banner-section {
+    background-size: cover;
+  }
+  .banner-section .wrapper .left-upper img,
+  .banner-section .wrapper .right-upper img {
+    display: none;
+  }
+  .banner-section .wrapper .bottom-content-text {
+    padding-bottom: 100px;
+  }
+  .email-section .wrapper .content {
+    padding: 35px 0px 35px 0px;
+  }
+  .NextMove-section .wrapper .logo {
+    margin-top: 70px;
+  }
+  /* .NextMove-section .wrapper .content h1.font-black {
+    font-size: 40px;
+  } */
+  .NextMove-section .wrapper .content h2.font-midGray {
+    margin-top: 0;
+  }
+  .NextMove-section .wrapper .blocks {
+    margin-top: 30px;
+  }
+  .NextMove-section .wrapper .blocks .block h6.font-black,
+  .NextMove-section .wrapper .blocks .block h4.font-midGray {
+    margin-top: 5px;
+  }
+  .NextMove-section .wrapper .blocks .block {
+    width: 50%;
+    margin-top: 15px;
+  }
+  /* .video-section .wrapper .left h1.font-black {
+    font-size: 35px;
+  } */
+  .video-section .wrapper img.absolute-position {
+    right: 120px;
+    top: 55px;
+  }
+  .input-email .email button {
+    margin-top: 15px;
+  }
+  footer .wrapper .blocks .left.left-float,
+  footer .wrapper .blocks .right.right-float,
+  .div-right.right-float {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  footer .wrapper .blocks .middle {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  footer .wrapper .blocks .right.left-float,
+  .div-right.right-float {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  h5.font-midGray,
+  h4.font-midGray {
+    padding-top: 30px;
+  }
+}
+/* media queries  */
